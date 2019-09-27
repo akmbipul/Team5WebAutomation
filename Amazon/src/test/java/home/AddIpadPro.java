@@ -9,7 +9,7 @@ public class AddIpadPro extends CommonApi {
 
     @Test
 
-        //adds Ipad Pro to Cart. 
+        //adds Ipad Pro to Cart.
         public void Test8(){
 
         driver.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]")).click();
@@ -17,4 +17,3 @@ public class AddIpadPro extends CommonApi {
 
         }
     }
-}
