@@ -4,7 +4,6 @@
     <list default="true" id="f3adb0c2-6126-4c48-adff-3adac9d5d858" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/resources/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/test/java/resources/CnnTestRunner.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
