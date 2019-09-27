@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3adb0c2-6126-4c48-adff-3adac9d5d858" name="Default Changelist" comment="" />
+    <list default="true" id="f3adb0c2-6126-4c48-adff-3adac9d5d858" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/resources/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/test/java/resources/CnnTestRunner.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +18,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -70,6 +77,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test2019Election.get2019Elections" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cnn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.Test2019Election" />
+      <option name="METHOD_NAME" value="get2019Elections" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestHome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
@@ -100,6 +125,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Tanim Imani/IdeaProjects/Team5WebAutomation-master/Cnn/src/test/java/resources/CnnTestRunner.xml" />
+        <item itemvalue="TestNG.Test2019Election.get2019Elections" />
         <item itemvalue="TestNG./Users/akmaslam/Documents/StudyFolder/Frameworks/Team5WebAutomation/Amazon/src/test/java/resources/AmazonTestRunner.xml" />
         <item itemvalue="TestNG.TestHome" />
       </list>
@@ -117,5 +143,18 @@
       <updated>1569247927274</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

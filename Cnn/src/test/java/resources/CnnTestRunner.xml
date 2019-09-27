@@ -15,13 +15,8 @@
         <classes>
 
 
-            <class name="home.TestSearchCoupons"/>
-            <class name="home.TestCheckEdition"/>
-            <class name="home.TestSearchfood"/>
-            <class name="home.TestHomePage"/>
-            <class name="home.TestCheckTitle"/>
-            <class name="home.TestSearchNews"/>
-            <class name="home.TestLive"/>
+            <class name="home.Test2019Election"/>
+
 
         </classes>
     </test>
