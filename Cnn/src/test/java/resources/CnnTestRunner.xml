@@ -13,10 +13,19 @@
 
     <test name = "Cnn Home">
         <classes>
-
-
             <class name="home.Test2019Election"/>
-
+            <class name="home.TestCheckEdition"/>
+            <class name="home.TestCheckTitle"/>
+            <class name="home.TestFooterTabs"/>
+            <class name="home.TestHomePage"/>
+            <class name="home.TestLive"/>
+            <class name="home.TestLiveUpdates"/>
+            <class name="home.TestSearchCoupons"/>
+            <class name="home.TestSearchfood"/>
+            <class name="home.TestSearchNews"/>
+            <class name="home.TestSearchText"/>
+            <class name="home.TestTechPage"/>
+            <class name="home.TestTopStories"/>
 
         </classes>
     </test>
