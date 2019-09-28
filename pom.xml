@@ -13,9 +13,9 @@
         <module>Amazon</module>
         <module>Cnn</module>
         <module>Facebook</module>
-        <module>Cigna</module>
         <module>Gieco</module>
         <module>Netflix</module>
+        <module>Cigna</module>
     </modules>
 
 
