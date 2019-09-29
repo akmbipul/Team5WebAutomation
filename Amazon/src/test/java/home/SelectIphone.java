@@ -1,8 +1,6 @@
 package home;
 
-import base.CommonApi;
 import org.openqa.selenium.By;
-import org.openqa.selenium.remote.server.handler.ClickElement;
 import org.testng.annotations.Test;
 
 public class SelectIphone extends CommonApi {
