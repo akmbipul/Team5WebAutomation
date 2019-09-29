@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class TestHomePage extends CommonApi {
+public class TestSearchPage extends CommonApi {
     @Test
     public void navigateToUsSection() {
     }
@@ -14,39 +14,49 @@ public class TestHomePage extends CommonApi {
     @Test
     public void navigateToWorldSection() {
     }
+
     @Test
     public void navigateToPoliticsSection() {
     }
+
     @Test
-    public void navigateToBusinessPage(){
+    public void navigateToBusinessPage() {
     }
 
     @Test
-    public void navigateToOpinionPage(){
+    public void navigateToOpinionPage() {
     }
 
     @Test
-    public void navigateToHealthPage(){
+    public void navigateToHealthPage() {
     }
 
     @Test
-    public void navigateToEntertainmentPage(){
+    public void navigateToEntertainmentPage() {
     }
 
     @Test
-    public void navigateToStylePage(){
+    public void navigateToStylePage() {
     }
 
     @Test
-    public void navigateToTravelPage(){
+    public void navigateToTravelPage() {
     }
 
     @Test
-    public void navigateToSportsPage(){
+    public void navigateToSportsPage() {
     }
 
     @Test
-    public void navigateTovideosPage(){
+    public void navigateTovideosPage() {
+    }
+
+    @Test
+    public void checkTechPage() {
+    }
+
+    @Test
+    public void testSearchCoupons() {
     }
 }
 

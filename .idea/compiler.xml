@@ -16,8 +16,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aba" target="1.5" />
       <module name="abc" target="1.5" />
       <module name="hfhf" target="1.5" />
+      <module name="Masbs" target="1.5" />
+      <module name="Ner" target="1.5" />
+      <module name="ss" target="1.5" />
+      <module name="sss" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

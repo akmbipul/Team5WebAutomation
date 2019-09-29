@@ -53,6 +53,9 @@ public class FooterTabs extends CommonApi {
         clickOnElement("//*[@id=\"footer-wrap\"]/footer/div[5]/div/div[2]/nav/ul/li[12]/a");
     }
 
-
+    public void get2019Elections() {
+        clickOnElement("//*[@id=\"nav\"]/header/div/div[2]/div/div[4]/nav/ul/li[3]/ul/li[6]/a");
+        clickOnElement("//*[@id=\"mount\"]/div/main/section[2]/section/div[1]/div[2]/div[1]/div[1]/main/div/a/div");
+    }
 }
 

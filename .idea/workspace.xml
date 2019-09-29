@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3adb0c2-6126-4c48-adff-3adac9d5d858" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/CheckEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/CheckEdition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/FooterTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/FooterTabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/GoLive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/GoLive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/SearchCoupon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/SearchFood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/SearchNews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/SearchText.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/SearchText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/main/java/cnnhome/TechPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/Test2019Election.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/TestCheckEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/test/java/home/TestCheckEdition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/TestHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/test/java/home/TestSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/TestLive.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/test/java/home/TestLive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/TestSearchCoupons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/TestSearchNews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/TestSearchText.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/test/java/home/TestSearchText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/TestSearchfood.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/TestTechPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/home/TestTopStories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cnn/src/test/java/resources/CnnTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cnn/src/test/java/resources/CnnTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +52,8 @@
   </component>
   <component name="ProjectId" id="1RF1FcDZ3WHiaECHmmv9zS9mASM" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Cnn/src/main" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Team5" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,11 +69,11 @@
       <recent name="utility" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tanim Imani\IdeaProjects\Team5WebAutomation-master\Netflix\src" />
+      <recent name="C:\Users\Tanim Imani\IdeaProjects\Team5WebAutomation-master\Netflix\src\main\java" />
       <recent name="C:\Users\Tanim Imani\IdeaProjects\Team5WebAutomation-master\Cnn\src\main" />
       <recent name="C:\Users\Tanim Imani\IdeaProjects\Team5WebAutomation-master\Cnn\src\test\java" />
       <recent name="C:\Users\Tanim Imani\IdeaProjects\Team5WebAutomation-master\Cnn\src" />
-      <recent name="$PROJECT_DIR$/Netflix/src/test/java" />
-      <recent name="$PROJECT_DIR$/Gieco/src/test/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -93,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestHome" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
+    <configuration name="Travel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cnn" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="home.*" />
@@ -102,7 +126,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.TestHome" />
+      <option name="MAIN_CLASS_NAME" value="home.Travel" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -110,10 +134,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/akmaslam/Documents/StudyFolder/Frameworks/Team5WebAutomation/Amazon/src/test/java/resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/java/resources/AmazonTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration name="Travel.getAbout" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cnn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.Travel" />
+      <option name="METHOD_NAME" value="getAbout" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Travel.getaboutus" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cnn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="home" />
+      <option name="MAIN_CLASS_NAME" value="home.Travel" />
+      <option name="METHOD_NAME" value="getaboutus" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -123,9 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Tanim Imani/IdeaProjects/Team5WebAutomation-master/Cnn/src/test/java/resources/CnnTestRunner.xml" />
+        <item itemvalue="TestNG.Travel.getAbout" />
+        <item itemvalue="TestNG.Travel.getaboutus" />
+        <item itemvalue="TestNG.Travel" />
         <item itemvalue="TestNG.Test2019Election.get2019Elections" />
-        <item itemvalue="TestNG./Users/akmaslam/Documents/StudyFolder/Frameworks/Team5WebAutomation/Amazon/src/test/java/resources/AmazonTestRunner.xml" />
-        <item itemvalue="TestNG.TestHome" />
       </list>
     </recent_temporary>
   </component>
