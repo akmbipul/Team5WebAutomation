@@ -1,6 +1,5 @@
 package home;
 
-import base.CommonApi;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 

@@ -1,6 +1,5 @@
 package home;
 
-import base.CommonApi;
 import org.testng.annotations.Test;
 
 public class TestHome extends CommonApi {
