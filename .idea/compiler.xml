@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Netflix" />
         <module name="Amazon" />
         <module name="Facebook" />
-        <module name="Gieco" />
         <module name="Cnn" />
         <module name="Generic" />
         <module name="Cigna" />
-        <module name="Netflix" />
+        <module name="Gieco" />
       </profile>
     </annotationProcessing>
   </component>

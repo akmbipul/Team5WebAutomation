@@ -14,7 +14,7 @@ import pageobjects.HomePage;
     public void initElements() {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
-    @Test
+   // @Test
     public void testOfEmployerBrokerLoginButton() {
         homePage.employerBrokerLoginTest();
     }
@@ -26,7 +26,7 @@ import pageobjects.HomePage;
     public void test4() {
         homePage.importantBenifitUpdatesTest();
     }
-    @Test
+   // @Test
     public void individualFamilyTest(){
         homePage.clickOnIndividulasAndFamilies();
     }
@@ -35,11 +35,11 @@ import pageobjects.HomePage;
 
         homePage.otherSupplimentalInsuranceTest();
     }
-    @Test
+   // @Test
     public void cignaInternationalTest(){
         homePage.setCignaInternational();
     }
-    @Test
+    //@Test
     public void aboutCignaTest(){
         homePage.setAboutCigna();
     }
