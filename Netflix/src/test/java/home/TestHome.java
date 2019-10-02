@@ -18,11 +18,47 @@ HomePage homePage;
     }
 
 
-@Test
-public void TestTrydayFree(){
+    @Test
+    public void TestTrydayFree()
+    {
         homePage.getDayFree();
 }
-
+    @Test
+    public void TestWhatIsNetflix(){
+        homePage.getWhatIsNetflix();
+    }
+    @Test
+    public void TestHowmuchNetflixCosts(){
+        homePage.getHowMuchNetflixCosts();
+    }
+    @Test
+    public void TestWhereCanIwatch(){
+        homePage.getWhereCanIwatch();
+    }
+    @Test
+    public void TestHowDoIcancel(){
+        homePage.gethowDoIcancel();
+    }
+    @Test
+    public void TestHowCanIwatchOnNetflix(){
+        homePage.getHowCanIwatchOnNetflix();
+    }
+    @Test
+    public void TestHowFreetrialWorks(){
+        homePage.getHowFreetrialWorks();
+    }
+    @Test
+    public void TestFaq(){
+       homePage.getFaq();
+    }
+    @Test
+    public void TestMediaCenter(){
+        homePage.getMediaCenter();
+    }
+    @Test
+    public void TestRedeemGiftcards(){
+        homePage.RedeemGiftCards();
+    }
 
 
 }
