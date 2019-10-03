@@ -13,17 +13,16 @@ public class TestHome extends CommonAPI {
 HomePage homePage;
 
     @BeforeMethod
-    public void initElements() {
+    public void initElements(){
+
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
-
 
     @Test
     public void TestTrydayFree()
     {
         homePage.getDayFree();
-}
-    @Test
+}   @Test
     public void TestWhatIsNetflix(){
         homePage.getWhatIsNetflix();
     }
@@ -59,6 +58,9 @@ HomePage homePage;
     public void TestRedeemGiftcards(){
         homePage.RedeemGiftCards();
     }
-
+    @Test
+    public void TestTermsOfUse(){
+        homePage.getTermsOfUse();
+    }
 
 }

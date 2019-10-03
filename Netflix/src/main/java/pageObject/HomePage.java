@@ -26,6 +26,36 @@ public class HomePage extends CommonAPI {
    WebElement mediaCenter;
    @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[7]/a/span")
    WebElement redeemGiftCards;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[10]/a/span")
+   WebElement termsOfUse;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[13]/a/span")
+   WebElement corporateInformation;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[16]/a/span")
+   WebElement legalNotices;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[2]/a/span")
+   WebElement helpCenter;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[5]/a/span")
+   WebElement investorRelations;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[8]/a/span")
+   WebElement buyGiftCards;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[11]/a/span")
+   WebElement privacy;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[14]/a/span")
+   WebElement contactUs;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[17]/a/span")
+   WebElement netflixOriginals;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[3]/a/span")
+   WebElement account;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[6]/a/span")
+   WebElement jobs;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[9]/a/span")
+   WebElement waysToWatch;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[12]/a/span")
+   WebElement cookiePreferences;
+   @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[15]/a/span")
+   WebElement speedTest;
+
+
 
 
    public void getDayFree(){
@@ -58,7 +88,48 @@ public class HomePage extends CommonAPI {
    public void RedeemGiftCards(){
        redeemGiftCards.click();
    }
-
+   public void getTermsOfUse(){
+       termsOfUse.click();
+   }
+   public void getCorporateInformation(){
+       corporateInformation.click();
+   }
+   public void getlegalNotices(){
+       legalNotices.click();
+   }
+   public void getHelpCenter(){
+       helpCenter.click();
+   }
+   public void getInvestorRelations(){
+       investorRelations.click();
+   }
+   public  void getBuyGiftCards(){
+       buyGiftCards.click();
+   }
+   public void getPrivacy(){
+       privacy.click();
+   }
+   public void getContactUs(){
+       contactUs.click();
+   }
+   public void getNetflixOriginals(){
+       netflixOriginals.click();
+   }
+   public void getaccount(){
+       account.click();
+   }
+   public void getJobs(){
+       jobs.click();
+   }
+   public void getWaysToWatch(){
+       waysToWatch.click();
+   }
+   public void getCockieFreferences(){
+       cookiePreferences.click();
+   }
+   public void getSpeedTest(){
+       speedTest.click();
+   }
 
 
 }
