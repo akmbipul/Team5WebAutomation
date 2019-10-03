@@ -3,6 +3,8 @@ package pageObject;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import sun.jvm.hotspot.utilities.Assert;
+import java.util.List;
 
 public class HomePage extends CommonAPI {
 
@@ -54,8 +56,8 @@ public class HomePage extends CommonAPI {
    WebElement cookiePreferences;
    @FindBy(xpath = "//*[@id=\"appMountPoint\"]/div/div/div/div/div/div[2]/div[6]/div[1]/div[2]/ul/li[15]/a/span")
    WebElement speedTest;
-
-
+   @FindBy(css = "#undefined-select")
+    WebElement languageDropDown;
 
 
    public void getDayFree(){
@@ -130,6 +132,17 @@ public class HomePage extends CommonAPI {
    public void getSpeedTest(){
        speedTest.click();
    }
+   public void setLanguageDropDownown(){
+       List<WebElement>element=getListOfWebElementsByCss("#undefined-select");
+       List<String>listOfText=getListOfString(element);
+      for(String text : listOfText){
+          System.out.println(text);
 
+      }
+       List<String>expectedMenu=listOfText;
+     // Assert.assertEquals(listOfText, expectedMenu);
+
+
+   }
 
 }
