@@ -1,6 +1,7 @@
 package pageobjects;
 
 import base.CommonAPI;
+import com.sun.org.apache.xalan.internal.xsltc.dom.NthIterator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
@@ -95,7 +96,32 @@ public class HomePage extends CommonAPI {
   WebElement forgotUserIDPassWord;
   @FindBy(xpath = "//*[@id=\"wrapper\"]/ng-component/div[1]/div/div[1]/div[3]/a")
   WebElement signUpForAnAccount;
-
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[3]/a/span[2]")
+  WebElement toolsAndResourses;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[3]/div/ul/li[11]/a/span")
+  WebElement lifeEventPlanning;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[3]/div/ul/li[12]/a")
+  WebElement personalPropertyCalculator;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[3]/div/ul/li[13]/a/span")
+  WebElement insuranceTerms;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[3]/div/ul/li[14]/a/span")
+  WebElement parkingLocator;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[3]/div/ul/li[15]/a/span")
+  WebElement parkingInspectionSites;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[4]/a/span[2]")
+  WebElement aboutGieco;
+  @FindBy(css = "#primary-navigation > div:nth-child(3) > ul > li.geico-nav--geico-blue.section--geico-blue > div > ul > li:nth-child(1) > a > span")
+  WebElement careers;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[4]/div/ul/li[2]/a")
+  WebElement corporateInformation;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[4]/div/ul/li[3]/a")
+  WebElement inTheCommunity;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[4]/div/ul/li[4]/a/span")
+  WebElement pressReleases;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[4]/div/ul/li[5]/a/span")
+  WebElement b2bServices;
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[3]/ul/li[4]/div/ul/li[6]/a/span")
+  WebElement organizationDiscount;
 
   public WebElement getUserIDEmailPolicyNumber() { return  userIDEmailPolicyNumber ;}
   public WebElement getHomePagePassWord(){return passWord;}
@@ -241,8 +267,46 @@ public class HomePage extends CommonAPI {
   public void getAddAVehicle(){
     this.addAVehicle.click();
   }
-  public void getGoPperless(){
+  public void getGoPaperless(){
     this.goPaperless.click();
   }
-
+  public void getToolsAndResources(){
+    this.toolsAndResourses.click();
+  }
+  public void getLifeEventPlanning(){
+    this.lifeEventPlanning.click();
+  }
+  public void getPersonalPropertyCalculator(){
+    this.personalPropertyCalculator.click();
+  }
+  public void getInsuranceTerms(){
+    this.insuranceTerms.click();
+  }
+  public void getParkingLocator(){
+    this.parkingLocator.click();
+  }
+  public void getparkingInspectionSites(){
+    this.parkingInspectionSites.click();
+  }
+  public void getAboutGieco(){
+    this.aboutGieco.click();
+  }
+  public void getCareers(){
+    this.careers.click();
+  }
+  public void getCorporateInformation(){
+    this.corporateInformation.click();
+  }
+  public void getInTheCommunity(){
+    this.inTheCommunity.click();
+  }
+  public void getPressReleases(){
+    this.pressReleases.click();
+  }
+  public void getB2bServices(){
+    this.b2bServices.click();
+  }
+  public void getOrganizationDiscount(){
+    this.organizationDiscount.click();
+  }
 }
