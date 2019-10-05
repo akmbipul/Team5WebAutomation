@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import sun.jvm.hotspot.utilities.Assert;
 import java.util.List;
 
+import static sun.jvm.hotspot.utilities.Assert.*;
+
 public class HomePage extends CommonAPI {
 
    @FindBy(css=".hero-cta-btn-txt")
@@ -66,10 +68,10 @@ public class HomePage extends CommonAPI {
    public void getWhatIsNetflix(){
        whatIsNetflix.click();
    }
-   public void getHowMuchNetflixCosts(){
+   public void getHowMuchNetflixCosts() {
        howMuchNetflixCosts.click();
    }
-   public void getWhereCanIwatch(){
+   public void getWhereCanIwatch() {
        whereCanIwatch.click();
    }
    public void gethowDoIcancel(){
@@ -84,7 +86,7 @@ public class HomePage extends CommonAPI {
    public void getFaq(){
        faq.click();
    }
-   public void getMediaCenter(){
+   public void getMediaCenter() {
        mediaCenter.click();
    }
    public void RedeemGiftCards(){
@@ -99,10 +101,10 @@ public class HomePage extends CommonAPI {
    public void getlegalNotices(){
        legalNotices.click();
    }
-   public void getHelpCenter(){
+   public void getHelpCenter() {
        helpCenter.click();
    }
-   public void getInvestorRelations(){
+   public void getInvestorRelations() {
        investorRelations.click();
    }
    public  void getBuyGiftCards(){
@@ -123,7 +125,7 @@ public class HomePage extends CommonAPI {
    public void getJobs(){
        jobs.click();
    }
-   public void getWaysToWatch(){
+   public void getWaysToWatch() {
        waysToWatch.click();
    }
    public void getCockieFreferences(){
@@ -140,7 +142,7 @@ public class HomePage extends CommonAPI {
 
       }
        List<String>expectedMenu=listOfText;
-     // Assert.assertEquals(listOfText, expectedMenu);
+      //assertEquals(listOfText, expectedMenu);
 
 
    }

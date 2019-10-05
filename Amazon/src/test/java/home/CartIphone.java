@@ -3,12 +3,12 @@ package home;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
-public class CartIphone extends CommonApi {
+//public class CartIphone extends CommonApi {
 
 
-    @Test
+    //@Test
     //adds " iPhone 11 Pro (64GB) - Space Gray" to cart
-    public void Test4() {
-        driver.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]"))
-    }
-}
+    //public void Test4() {
+        //driver.findElement(By.xpath("//*[@id=\"add-to-cart-button\"]"))
+    //}
+//}
