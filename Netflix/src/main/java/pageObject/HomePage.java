@@ -3,6 +3,7 @@ package pageObject;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import sun.jvm.hotspot.utilities.Assert;
 import java.util.List;
 
@@ -146,5 +147,6 @@ public class HomePage extends CommonAPI {
 
 
    }
+    }
 
-}
+

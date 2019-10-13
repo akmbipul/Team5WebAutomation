@@ -11,33 +11,31 @@ import java.sql.Driver;
 
 public class TestHome extends CommonAPI {
 
-HomePage homePage;
-SearchPage searchPage;
+       HomePage homePage;
+       SearchPage searchPage;
 
-    @BeforeMethod
-    public void initElements() {
+       @BeforeMethod
+       public void initElements() {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
-
-
-    @Test
-    public void testInsurance(){
+       @Test
+       public void testInsurance(){
         homePage.getInsurance();
     }
 
-    @Test
+      // @Test
 
         public void testVehileInsurance(){
-
-           homePage.getvehicleInsurance();
+        homePage.getvehicleInsurance();
         }
-        @Test
+
+       // @Test
         public void testGiecoTitle(){
         homePage.getGiecoTitle();
         }
 
-       @Test
+       // @Test
 
         public void testSearchBoxFromDataSource() throws Exception {
         searchPage.searchItems();

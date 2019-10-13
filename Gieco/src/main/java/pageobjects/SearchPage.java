@@ -41,17 +41,6 @@ public  WebElement searchButton;
     }
 
 
-//    public void searchItemsAndSubmitButton() throws Exception, IOException, SQLException, ClassNotFoundException {
-//        clickOnSearchButton();
-//        List<String> list = DataSource.getItemsListFromDB();
-//        for (int i = 0; i < list.size(); i++) {
-//           searchFor(list.get(i));
-//            clickOnSearchButton();
-//            navigateBack();
-//            clearInput();
-//        }
-//
-//    }
         public void searchItems () throws Exception, IOException, SQLException, ClassNotFoundException {
             clickOnSearchButton();
             List<String> itemList = datasource.DataSource.getItemValue();
