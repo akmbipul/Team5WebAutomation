@@ -17,7 +17,7 @@
         <module>Netflix</module>
         <module>Cigna</module>
         <module>Gieco</module>
-
+        <module>RestAPI</module>
 
 
     </modules>
@@ -41,7 +41,7 @@
                 <groupId>org.testng</groupId>
                 <artifactId>testng</artifactId>
                 <version>7.0.0</version>
-                <scope>test</scope>
+
             </dependency>
 
             <dependency>
@@ -81,6 +81,11 @@
                 <groupId>commons-io</groupId>
                 <artifactId>commons-io</artifactId>
                 <version>2.5</version>
+            </dependency>
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>3.3.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
