@@ -16,10 +16,12 @@
             <class name="home.TestSearchPage"/>
             <class name="home.TestCheckEdition"/>
             <class name="home.TestCheckTitle"/>
-            <class name="home.TestLive"/>
             <class name="home.TestFooterTabs"/>
             <class name="home.TestTypeText"/>
             <class name="home.TestSearchText"/>
+            <class name="home.TestHomePage"/>
+            <class name="home.TestCnnCareers"/>
+
         </classes>
     </test>
 

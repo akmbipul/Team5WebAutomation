@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Cucumber-Common/pom.xml" />
+        <option value="$PROJECT_DIR$/FacebookCucumber/pom.xml" />
         <option value="$PROJECT_DIR$/Walmart/pom.xml" />
       </set>
     </option>

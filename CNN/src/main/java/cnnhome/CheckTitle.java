@@ -6,8 +6,8 @@ import org.testng.annotations.Test;
 
 public class CheckTitle extends CommonApi {
     public void checkTitle() {
-        String cnntitle = driver.getTitle();
+        String cnnTitle = driver.getTitle();
         String actualTitle = "CNN - Breaking News, Latest News and Videos";
-        Assert.assertEquals(actualTitle, cnntitle);
+        Assert.assertEquals(actualTitle, cnnTitle);
     }
 }

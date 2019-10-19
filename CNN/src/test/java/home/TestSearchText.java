@@ -13,7 +13,7 @@ public class TestSearchText extends CommonApi {
     }
 
     @Test
-    public void searcEnergy() {
+    public void searchEnergy() {
     }
 
     @Test
@@ -45,7 +45,7 @@ public class TestSearchText extends CommonApi {
     }
 
     @Test
-    public void searchGadegts() {
+    public void searchGadgets() {
     }
 
     @Test
@@ -65,7 +65,7 @@ public class TestSearchText extends CommonApi {
     }
 
     @Test
-    public void searcSocial() {
+    public void searchSocial() {
     }
 
     @Test
@@ -98,5 +98,8 @@ public class TestSearchText extends CommonApi {
 
     @Test
     public void searchFashion() {
+    }
+    @Test
+    public void searchCollegeFootball(){
     }
 }

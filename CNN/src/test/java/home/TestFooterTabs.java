@@ -1,43 +1,95 @@
 package home;
 
 import base.CommonApi;
+import cnnhome.FooterTabs;
+import cnnhome.HomePage;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
-public class TestFooterTabs extends CommonApi {
+import java.util.List;
+
+public class TestFooterTabs extends FooterTabs {
+
     @Test
-    public void getAboutUs() {
+    public void getTermsOfUseButton() {
+        driver.navigate().to("https://www.cnn.com/");
     }
     @Test
-    public void goToCNNStore() {
+    public void testOnFooterMenu(){
+        List<WebElement> footerMenuList=footerMenu();
+        System.out.println(footerMenuList.size());
     }
     @Test
-    public void getPrivacypolicy() {
+    public void getPrivacyPolicy(){
+        driver.navigate().to("https://www.cnn.com/");
+        sleepFor(10);
     }
     @Test
-    public void getTermsosUse() {
+    public void getAboutUs(){
+        driver.navigate().to("https://www.cnn.com/");
     }
     @Test
-    public void getAccessibilityandcc() {
+    public void goToCNNStore(){
     }
     @Test
-    public void getAdChoices() {
+    public void getSiteMap() {
+        driver.navigate().to("https://www.cnn.com/");
     }
     @Test
-    public void getCNNStudioTours() {
+    public void validateFooterTurner(){
+        driver.navigate().to("https://www.cnn.com/");
+        driver.navigate().back();
     }
     @Test
-    public void goToNewsletter() {
+    public void validateLinkTextSports(){
     }
     @Test
-    public void getTranscript() {
+    public void goToNewsletter(){
+        driver.navigate().to("https://www.cnn.com/");
+        driver.navigate().back();
     }
     @Test
-    public void licenseFootage() {
+    public void getCNNStudioTours(){
+        TestLogger.log("Cnn Studio has been displayed");
+        driver.navigate().to("https://www.cnn.com/");
     }
     @Test
-    public void getCNNNewsource() {
+    public void getAccessibilityAndCc(){
+        TestLogger.log("Accessibility has been displayed");
+        driver.navigate().to("https://www.cnn.com/");
     }
     @Test
-    public void getSitemap() {
+    public void getTranscript(){
+        TestLogger.log("Transcript has been displayed");
+        driver.navigate().to("https://www.cnn.com/");
+    }
+    @Test
+    public void licenseFootage(){
+        TestLogger.log("License has been displayed");
+        driver.navigate().to("https://www.cnn.com/");
+    }
+    @Test
+    public void testArchitecturePage(){
+        driver.navigate().to("https://www.cnn.com/");
+    }
+    @Test
+    public void testPlayPage(){
+    }
+    @Test
+    public void testParentingSection(){
+    }
+    @Test
+    public void testFactsSection(){
+    }
+    @Test
+    public void get2019Elections() {
+    }
+    @Test
+    public void getCNNNewSource(){
+    }
+    @Test
+    public void getAdChoices(){
     }
 }

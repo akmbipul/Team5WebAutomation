@@ -255,8 +255,15 @@ public class CommonApi {
         select.selectByVisibleText(value);
     }
 
-    public static void sleepFor(int sec) throws InterruptedException {
-        Thread.sleep(sec * 1000);
+    public void sleepFor(int seconds) {
+        try {
+            Thread.sleep(seconds * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    public boolean isElementDisplayed(String locator) {
+        return driver.findElement(By.xpath(locator)).isDisplayed();
     }
 
     public void mouseHoverByCSS(String locator) {
@@ -379,6 +386,29 @@ public class CommonApi {
             System.out.println("CSS locator didn't work");
         }
     }
+    public WebElement getElement(String locator) {
+        WebElement element = driver.findElement(By.xpath(locator));
+        return element;
+    }
+    public WebElement getElementByXPath(String locator){
+        return driver. findElement(By.xpath(locator));
+    }
+    public static void clickOnElementByLinkText(String locator){
+        driver.findElement(By.linkText(locator)).click();
+    }
+    public void mouseHoverByXPath(String locator){
+        WebElement element=getElementByXPath(locator);
+        Actions actions=new Actions(driver);
+        actions.moveToElement(element).build().perform();
+    }
+    public WebElement getElementByLinkedText(String locator){
+        return driver. findElement(By.linkText(locator));
+    }
+    public void scrollIntoView(String locator){
+        JavascriptExecutor javascriptExecutor=(JavascriptExecutor) driver;
+        javascriptExecutor.executeScript("arguments[0].scrollIntoView(true);", getElementByLinkedText(locator));
+    }
+
 
 }
 
