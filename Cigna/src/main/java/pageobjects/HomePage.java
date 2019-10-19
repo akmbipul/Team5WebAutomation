@@ -25,7 +25,7 @@ public class HomePage extends CommonAPI {
     WebElement cignaInternational;
     @FindBy(css="#\\31 564310141631 > div > div > div:nth-child(2) > div > div.teaser-content.col-12.col-md-7.col-lg-12.align-self-lg-center > header > a")
     WebElement healthierKidsforOurFuture;
-    @FindBy(xpath = "//a[text()='About Us']")
+    @FindBy(xpath = "//*[@id=\"includes-content\"]/div[1]/nav[3]/div/ul/li[4]/a")
     WebElement aboutUs;
     @FindBy(css = ".container>ul>li:nth-child(4)>a")
      WebElement investorRelations;
@@ -54,13 +54,12 @@ public class HomePage extends CommonAPI {
         this.healthierKidsforOurFuture.click();
     }
     public void mouseHoverOnInvestorRelations(){
-        getAboutUsCigna();
         WebElement element=investorRelations;
         Actions actions=new Actions(driver);
         actions.moveToElement(element).perform();
     }
     public void clickOnCignaOverview(){
-        getAboutUsCigna();
+        this.getAboutUsCigna();
         mouseHoverOnInvestorRelations();
         cignaOverview.click();
 

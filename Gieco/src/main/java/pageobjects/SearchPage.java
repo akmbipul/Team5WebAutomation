@@ -4,6 +4,7 @@ import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 
 import javax.activation.DataSource;
 import java.io.IOException;
@@ -14,7 +15,7 @@ public class SearchPage extends CommonAPI {
 
 @FindBy(how = How.XPATH, using = "//*[@id=\"header-right-links\"]/ul[1]/li[3]/a/span")
 public WebElement searchIcon;
-@FindBy(how = How.XPATH, using = "//*[@id=\"search\"]/div[2]/div/div[2]/div[1]/div/div[1]/div[1]/input")
+@FindBy(how = How.XPATH, using = "//*[@id=\"primary-navigation\"]/div[6]/form/input")
 public WebElement searchBox;
 @FindBy(how = How.XPATH,using = "//*[@id=\"search\"]/div[2]/div/div[2]/div[1]/div/div[2]/a[2]")
 public  WebElement searchButton;
@@ -31,6 +32,8 @@ public  WebElement searchButton;
 
 
     public void searchBox(){
+
+       // TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickOnSearchIcon();
         searchFor("Vehicle Insurance");
         clickOnSearchButton();
@@ -42,7 +45,7 @@ public  WebElement searchButton;
 
 
         public void searchItems () throws Exception, IOException, SQLException, ClassNotFoundException {
-            clickOnSearchButton();
+             clickOnSearchButton();
             List<String> itemList = datasource.DataSource.getItemValue();
             for (String st : itemList) {
                 searchFor(st);
