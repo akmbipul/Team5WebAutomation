@@ -3,16 +3,14 @@ package pageObject;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import sun.jvm.hotspot.utilities.Assert;
-import java.util.List;
+import org.testng.Assert;
 
-import static sun.jvm.hotspot.utilities.Assert.*;
+import java.util.List;
 
 public class HomePage extends CommonAPI {
 
    @FindBy(css=".hero-cta-btn-txt")
-   WebElement tryDayFree;
+   WebElement try30DayFree;
    @FindBy(css = ".faq-list-item")
    WebElement whatIsNetflix;
    @FindBy(css = ".faq-question")
@@ -64,7 +62,7 @@ public class HomePage extends CommonAPI {
 
 
    public void getDayFree(){
-       tryDayFree.click();
+       try30DayFree.click();
    }
    public void getWhatIsNetflix(){
        whatIsNetflix.click();
@@ -129,24 +127,23 @@ public class HomePage extends CommonAPI {
    public void getWaysToWatch() {
        waysToWatch.click();
    }
-   public void getCockieFreferences(){
+   public void getCookieFreferences(){
        cookiePreferences.click();
    }
    public void getSpeedTest(){
        speedTest.click();
    }
-   public void setLanguageDropDownown(){
-       List<WebElement>element=getListOfWebElementsByCss("#undefined-select");
-       List<String>listOfText=getListOfString(element);
-      for(String text : listOfText){
-          System.out.println(text);
-
-      }
-       List<String>expectedMenu=listOfText;
-      //assertEquals(listOfText, expectedMenu);
-
-
+   public void setLanguageDropDownown() {
+       List<WebElement> element = getListOfWebElementsByCss("#undefined-select");
+       List<String> listOfText = getListOfString(element);
+       for (String text : listOfText) {
+           System.out.println(text + " ,");
+       }
+       List<String> expectedMenu = listOfText;
+       Assert.assertEquals(listOfText, expectedMenu);
    }
+
+
     }
 
 

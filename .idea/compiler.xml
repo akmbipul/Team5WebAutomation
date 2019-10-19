@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="RestAPI" />
+        <module name="MobileAutomation" />
         <module name="Amazon" />
+        <module name="Generic" />
         <module name="Facebook" />
         <module name="Gieco" />
         <module name="Cnn" />
-        <module name="Generic" />
+        <module name="RestAPI" />
         <module name="Cigna" />
         <module name="Netflix" />
       </profile>

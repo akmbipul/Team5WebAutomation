@@ -8,9 +8,9 @@ import reporting.TestLogger;
 
 public class HomePage extends CommonAPI {
 
-  @FindBy(css = "#header-left-links > ul.desktop-links > li:nth-child(1) > a")
+  @FindBy(xpath = "//*[@id=\"header-left-links\"]/ul[1]/li[1]/a")
   WebElement insurance;
-  @FindBy(css = "#primary-navigation > div.panel-wrapper.open > ul > li:nth-child(2) > a > span.geico-nav-menu-item")
+  @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[2]/ul/li[1]/a/span[2]")
   WebElement vehicleInsurance;
   @FindBy(xpath = "//*[@id=\"primary-navigation\"]/div[2]/ul/li[1]/div/ul/li[1]/a/span")
   WebElement auto;
@@ -152,30 +152,24 @@ public class HomePage extends CommonAPI {
   public void getInsurance(){
       this.insurance.click();
   }
-  public void getvehicleInsurance(){
-    this.vehicleInsurance.click();
-  }
-  public void getAuto(){
-    this.auto.click();
-  }
+  public void getvehicleInsurance(){ vehicleInsurance.click(); }
+  public void getAuto(){ this.auto.click(); }
   public void getMotorCycle(){
     this.motorcycle.click();
   }
-  public void getAtv(){
-    this.atv.click();
-  }
+
+  public void getAtv(){ this.atv.click(); }
   public void getRv(){
     this.rv.click();
   }
-  public void getBoatPwc(){
-    this.boatPwc.click();
-  }
+  public void getBoatPwc(){ this.boatPwc.click(); }
   public void getCollectorAuto(){
     this.collectorAuto.click();
   }
   public void getRideShare(){
     this.rideShare.click();
   }
+
   public void getCommercialAuto(){
     this.commercialAuto.click();
   }
@@ -191,6 +185,7 @@ public class HomePage extends CommonAPI {
   public void getRenters(){
     this.renters.click();
   }
+
   public void getCondoCoOp(){
     this.condoCoOp.click();
   }
@@ -206,6 +201,7 @@ public class HomePage extends CommonAPI {
   public void getBusinessInsurance(){
     this.businessInsurance.click();
   }
+
   public void getBusinessOwners(){
     this.businessOwners.click();
   }
@@ -221,6 +217,7 @@ public class HomePage extends CommonAPI {
   public void getMedicalMalPractice(){
     this.medicalMalPractice.click();
   }
+
   public void getWellnessAndFitness(){
     this.wellnessAndFitness.click();
   }
@@ -230,12 +227,11 @@ public class HomePage extends CommonAPI {
   public void getRideShare2(){
     this.rideShare2.click();
   }
-  public void getAdditionalInsurance(){
-    this.additionalInsurance.click();
-  }
+  public void getAdditionalInsurance(){ this.additionalInsurance.click(); }
   public void getUmbrella(){
     this.umbrella.click();
   }
+
   public void getLife(){
     this.life.click();
   }
@@ -251,6 +247,7 @@ public class HomePage extends CommonAPI {
   public void getPet(){
     this.pet.click();
   }
+
   public void getJewlery(){
     this.jewelery.click();
   }
@@ -263,10 +260,8 @@ public class HomePage extends CommonAPI {
   public void getIDCards(){
     this.getIdcards.click();
   }
+  public void getAddAVehicle(){ this.addAVehicle.click(); }
 
-  public void getAddAVehicle(){
-    this.addAVehicle.click();
-  }
   public void getGoPaperless(){
     this.goPaperless.click();
   }
@@ -282,21 +277,21 @@ public class HomePage extends CommonAPI {
   public void getInsuranceTerms(){
     this.insuranceTerms.click();
   }
+
   public void getParkingLocator(){
     this.parkingLocator.click();
   }
   public void getparkingInspectionSites(){
     this.parkingInspectionSites.click();
   }
-  public void getAboutGieco(){
-    this.aboutGieco.click();
-  }
+  public void getAboutGieco(){ this.aboutGieco.click(); }
   public void getCareers(){
     this.careers.click();
   }
   public void getCorporateInformation(){
     this.corporateInformation.click();
   }
+
   public void getInTheCommunity(){
     this.inTheCommunity.click();
   }

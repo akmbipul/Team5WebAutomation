@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class CompanyFrofilePage extends CommonAPI {
 
-    @FindBy(xpath = "//*[@id=\"1385098823854\"]/div/div[5]/header/div/nav/div/ul/li[1]/a")
+    @FindBy(xpath = "//*[@id=\"1386145320252\"]/div/div[5]/header/div/nav/div/ul/li[1]/a")
     WebElement companyProfile;
     @FindBy(css = "#\\31 386145326728 > div > div > div:nth-child(2)")
     WebElement healthCareLeadership;

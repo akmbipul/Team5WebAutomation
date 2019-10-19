@@ -18,6 +18,7 @@
         <module>Cigna</module>
         <module>Gieco</module>
         <module>RestAPI</module>
+        <module>MobileAutomation</module>
 
 
     </modules>
@@ -87,7 +88,19 @@
                 <artifactId>rest-assured</artifactId>
                 <version>3.3.0</version>
             </dependency>
+
+
+            <dependency>
+                <groupId>io.appium</groupId>
+                <artifactId>java-client</artifactId>
+                <version>3.1.0</version>
+            </dependency>
+
         </dependencies>
+
+
+
+
     </dependencyManagement>
 
 </project>
