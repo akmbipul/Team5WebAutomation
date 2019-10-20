@@ -9,16 +9,17 @@
         <module name="RestAPI" />
         <module name="Amazon" />
         <module name="Facebook" />
-        <module name="Geico" />
         <module name="Generic" />
         <module name="CNN" />
         <module name="Cigna" />
-        <module name="Netflix" />
+        <module name="Chase" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="CucumberCommon" target="1.5" />
       <module name="FacebookCucumber" target="1.5" />
+      <module name="Geico" target="1.5" />
+      <module name="Netflix" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

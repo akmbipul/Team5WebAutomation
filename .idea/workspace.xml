@@ -2,52 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80055fd3-5c71-4fa5-adf3-abd95ecc5e98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Amazon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/src/main/java/amazonhome/DropDown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/Amazon-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CNN/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/CheckEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/CheckEdition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/CheckTitle.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/CheckTitle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/FooterTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/FooterTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/GoLive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/SearchText.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/SearchText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/TypeText.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/main/java/cnnhome/TypeText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/main/resources/CnnTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/home/TestCheckEdition.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/java/home/TestCheckEdition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/home/TestFooterTabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/java/home/TestFooterTabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/home/TestLive.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/home/TestSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/java/home/TestSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/home/TestSearchText.java" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/java/home/TestSearchText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/src/test/java/resources/CNNTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/src/test/java/resources/CNNTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/CnnTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/cnnhome/CheckEdition.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/classes/cnnhome/CheckEdition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/cnnhome/CheckTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/classes/cnnhome/CheckTitle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/cnnhome/FooterTabs.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/classes/cnnhome/FooterTabs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/cnnhome/GoLive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/cnnhome/SearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/classes/cnnhome/SearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/cnnhome/SearchText.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/classes/cnnhome/SearchText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/classes/cnnhome/TypeText.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/classes/cnnhome/TypeText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/home/TestCheckEdition.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/test-classes/home/TestCheckEdition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/home/TestFooterTabs.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/test-classes/home/TestFooterTabs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/home/TestLive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/home/TestSearchPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/test-classes/home/TestSearchPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/target/test-classes/home/TestSearchText.class" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/target/test-classes/home/TestSearchText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestCheckEdition.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestCheckEdition.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestCheckTitle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestCheckTitle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestFooterTabs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestFooterTabs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestSearchPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestSearchPage.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestSearchText.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestSearchText.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestTypeText.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/junitreports/TEST-home.TestTypeText.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CNN/test-output/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Geico/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generic/target/classes/base/CommonApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/base/CommonApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Netflix/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -104,7 +73,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Tanim Imani/IdeaProjects/WebAutomation/Facebook/src/test/java/resources/FBTestRunner.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Tanim Imani/IdeaProjects/WebAutomation/CNN/src/test/java/resources/CNNTestRunner.xml">
+    <configuration name="C:/Users/Tanim Imani/IdeaProjects/WebAutomation/Amazon/src/test/java/resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/java/resources/AmazonTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Tanim Imani/IdeaProjects/WebAutomation/CNN/src/test/java/resources/CNNTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="CNN" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/CNN/src/test/java/resources/CNNTestRunner.xml" />
@@ -168,36 +147,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCNews.checkTitle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CNN" />
+    <configuration name="TestLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.TestCNews" />
-      <option name="METHOD_NAME" value="checkTitle" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSearchPage.searchlogo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="CNN" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="home" />
-      <option name="MAIN_CLASS_NAME" value="home.TestSearchPage" />
-      <option name="METHOD_NAME" value="searchlogo" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="testhome" />
+      <option name="MAIN_CLASS_NAME" value="home.TestLogIn" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -208,17 +168,17 @@
       <item itemvalue="TestNG.TestCNews" />
       <item itemvalue="TestNG.C:/Users/Tanim Imani/IdeaProjects/WebAutomation/CNN/src/test/java/resources/CNNTestRunner.xml" />
       <item itemvalue="TestNG.CheckTitle.checkTitle" />
-      <item itemvalue="TestNG.TestCNews.checkTitle" />
-      <item itemvalue="TestNG.TestSearchPage.searchlogo" />
       <item itemvalue="TestNG.C:/Users/Tanim Imani/IdeaProjects/WebAutomation/Facebook/src/test/java/resources/FBTestRunner.xml" />
+      <item itemvalue="TestNG.TestLogIn" />
+      <item itemvalue="TestNG.C:/Users/Tanim Imani/IdeaProjects/WebAutomation/Amazon/src/test/java/resources/AmazonTestRunner.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Tanim Imani/IdeaProjects/WebAutomation/Facebook/src/test/java/resources/FBTestRunner.xml" />
         <item itemvalue="TestNG.C:/Users/Tanim Imani/IdeaProjects/WebAutomation/CNN/src/test/java/resources/CNNTestRunner.xml" />
+        <item itemvalue="TestNG.C:/Users/Tanim Imani/IdeaProjects/WebAutomation/Amazon/src/test/java/resources/AmazonTestRunner.xml" />
+        <item itemvalue="TestNG.TestLogIn" />
+        <item itemvalue="TestNG.C:/Users/Tanim Imani/IdeaProjects/WebAutomation/Facebook/src/test/java/resources/FBTestRunner.xml" />
         <item itemvalue="TestNG.CheckTitle.checkTitle" />
-        <item itemvalue="TestNG.TestCNews.checkTitle" />
-        <item itemvalue="TestNG.TestSearchPage.searchlogo" />
       </list>
     </recent_temporary>
   </component>

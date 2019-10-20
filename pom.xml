@@ -10,16 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>Amazon</module>
         <module>Cigna</module>
         <module>CNN</module>
-        <module>Geico</module>
         <module>Facebook</module>
-        <module>Netflix</module>
         <module>RestAPI</module>
-        <module>FacebookCucumber</module>
-        <module>Cucumber-Common</module>
-
+        <module>Amazon</module>
+        <module>Chase</module>
     </modules>
 
     <dependencyManagement>
@@ -85,31 +81,6 @@
                 <groupId>io.rest-assured</groupId>
                 <artifactId>rest-assured</artifactId>
                 <version>4.1.2</version>
-            </dependency>
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-java</artifactId>
-                <version>4.2.3</version>
-            </dependency>
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-picocontainer</artifactId>
-                <version>4.2.3</version>
-            </dependency>
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-junit</artifactId>
-                <version>4.2.3</version>
-            </dependency>
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-core</artifactId>
-                <version>4.2.3</version>
-            </dependency>
-            <dependency>
-                <groupId>io.cucumber</groupId>
-                <artifactId>cucumber-testng</artifactId>
-                <version>4.2.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

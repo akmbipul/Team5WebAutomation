@@ -408,6 +408,9 @@ public class CommonApi {
         JavascriptExecutor javascriptExecutor=(JavascriptExecutor) driver;
         javascriptExecutor.executeScript("arguments[0].scrollIntoView(true);", getElementByLinkedText(locator));
     }
+    public static void clickOnElementByXpath(String locator) {
+        driver.findElement(By.xpath(locator)).click();
+    }
 
 
 }
